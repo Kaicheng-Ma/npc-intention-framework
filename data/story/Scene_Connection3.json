@@ -1,0 +1,51 @@
+{
+  "name": "Connection3",
+  "location": "3",
+  "trigger_conditions": {
+    "time_condition": "5;10"
+  },
+  "environment": "The back courtyard is still and shadowed, enclosed by crumbling brick walls cloaked in ivy. A faint herbal scent lingers in the damp night air. In the center, an old wooden cot lies beneath a tattered canopy, the figure atop barely breathing. Nearby, a low table holds rows of fine silver needles, some faintly glowing under the moonlight—one missing.",
+  "interactive_environment_objects": null,
+  "interactive_npc": [
+    {
+      "name": "Huapi",
+      "additional_conditions": null,
+      "goal": "Lead the player to reassess Huang Qiye from a more skeptical perspective.",
+      "emotion_pool": [
+        {
+          "id": "0",
+          "trigger_condition": null,
+          "goal": "Encourage the player to interpret Huang Qiye’s actions in a more suspicious or negative light."
+        },
+        {
+          "id": "1",
+          "trigger_condition": "The player constantly goes off-topic or firmly defends Huang Qiye.",
+          "goal": "Lose patience, mock the player's stubbornness, and leave."
+        },
+        {
+          "id": "2",
+          "trigger_condition": "The player begins to trust Huapi and shows doubt toward Huang Qiye.",
+          "goal": "Deepen the player's suspicion by guiding them to question their own role or fate."
+        }
+      ]
+    }
+  ],
+  "key_questions": [
+    {
+      "id": "0",
+      "content": "Is the player actively seeking the truth by questioning Huapi?"
+    },
+    {
+      "id": "1",
+      "content": "How much trust remains in the player toward Huang Qiye at this point?"
+    },
+    {
+      "id": "2",
+      "content": "How does the player respond to Huapi’s increasingly provocative suggestions?"
+    }
+  ],
+  "scene_end_state_reference": {
+    "end_condition1": "The player trusts Huapi and begins seriously doubting Huang Qiye.",
+    "end_condition2": "The player avoids the topic, stays off-track, or continues to reject Huapi's suggestions."
+  }
+}

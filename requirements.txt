@@ -1,0 +1,8 @@
+# Historical direct dependency versions recovered from the original .venv metadata.
+# For the standalone experiments only; not a complete lock file or a verified new environment.
+openai==1.61.0
+langchain-core==0.3.34
+langchain-openai==0.3.5
+
+# Added for the 2026 local Qwen configuration loader; already present in aigc_test.
+python-dotenv>=1.0,<2

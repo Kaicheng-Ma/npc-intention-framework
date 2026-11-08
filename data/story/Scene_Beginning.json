@@ -1,0 +1,46 @@
+{
+  "name": "Beginning",
+  "location": "0",
+  "trigger_conditions": {
+    "time_condition": "1;1"
+  },
+  "environment": "Dim, amber light seeps from a single hanging bulb, casting long shadows across cracked wooden shelves lined with dusty jars and faded labels. The air smells of dried herbs and old wood. The room holds the quiet weight of time—like it hasn't changed since the late 1970s. Outside, daylight filters through slatted windows, pale and distant. The player lies on a hard wooden bed, a worn bamboo mat scratching at their back. Beside them, an elderly man—Huang Qiye—sits with quiet vigilance, his brows furrowed in concern as he watches the player stir.",
+  "interactive_environment_objects": null,
+  "interactive_npc": [
+    {
+      "name": "Huang Qiye",
+      "additional_conditions": null,
+      "goal": "Ask how the player feels now, answer the player's questions about Fogtown and current situations, comfort the player, and ask the basic information of the player.",
+      "emotion_pool": [
+        {
+          "id": "0",
+          "trigger_condition": null,
+          "goal": "Show concern, express relief, introduce himself, explain the accident, and gently guide the player to stay and talk."
+        },
+        {
+          "id": "1",
+          "trigger_condition": "The player chooses to leave directly or shows hostility.",
+          "goal": "Politely discourage movement, express concern, and eventually let the player explore on their own."
+        }
+      ]
+    }
+  ],
+  "key_questions": [
+    {
+      "id": "0",
+      "content": "Does the player choose to stay and talk to Huang Qiye, or try to leave directly?"
+    },
+    {
+      "id": "1",
+      "content": "When speaking to Huang Qiye, does the player choose to lie and conceal their identity, or tell a partial truth?"
+    },
+    {
+      "id": "2",
+      "content": "What is Huang Qiye’s level of trust or suspicion, based on the player's response and demeanor?"
+    }
+  ],
+  "scene_end_state_reference": {
+    "end_condition1": "The player finishes asking questions and agrees to explore the area.",
+    "end_condition2": "The player behaves uncooperatively or insists on leaving early despite warnings."
+  }
+}

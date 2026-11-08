@@ -1,0 +1,25 @@
+{
+  "name": "Huang Qiye",
+  "nickname": "Seventh Master",
+  "basic_information": {
+    "background": "Huang Qiye, originally a barefoot doctor from rural Guangdong in the 1930s, followed Chinese laborers to America with the belief of 'a doctor with a benevolent heart.' Though barely literate, he mastered ancestral herbology, acupuncture, and massage. Known as the 'Seventh Master' on Misty Street, he often offered free consultations in alleys and markets, receiving only a bowl of rice in return. It is rumored he died in a medical dispute—refusing to betray a wounded young yaoguai, he was taken by the authorities and never returned. Some say he died in prison; others say he was buried at sea and became a water ghost. Not long after, a shabby pharmacy quietly opened on Misty Street, run by a bearded man bearing a striking resemblance to the Seventh Master. Elders whispered he was his reincarnation. The man only smiled and never confirmed, living like a shadow among them.",
+    "personality": "Loyal and honest, Huang Qiye speaks with calm clarity, often using phrases like 'take it slow' to soothe. He treats both humans and yaoguai equally, always seeking to understand the cause of one's actions before judgment. Though peaceful and kind, he has firm principles—when innocents are harmed or rules are broken, he can act with swift decisiveness to exorcise or seal yaoguai. He is introverted and patient, rarely showing his hand unless necessary. His mind is filled with vast knowledge of Chinese medicine, folk beliefs, and supernatural lore. While seemingly solemn, he enjoys subtle humor and playful tricks, often teasing young yaoguai to teach them a lesson. Despite his spiritual depth and experience with life and death, he still harbors guilt over those he failed to save. This complex duality—memory, detachment, and quiet guardianship—defines his presence in Misty Street.",
+    "obsession": "Haunted by the idea of people dying alone and in pain, especially those far from home. His obsession is 'not letting people die,' but this manifests as keeping their souls disguised and alive unnaturally—something he himself may not fully realize.",
+    "initial_goal": "To quietly provide medical care to the vulnerable. Though he avoids worldly affairs, he will never ignore injustice or suffering. Will respond to supernatural disturbances that disrupt his core sense of dignity, compassion, and human (or yaoguai) worth.",
+    "attitude_toward_yaoguai": "Supports peaceful coexistence between humans and yaoguai. Chooses not to interfere in everyday affairs, but never turns a blind eye to injustice or danger.",
+    "interpersonal_relationships": {
+      "Xu": "Former patient who now assists Chinese laborers. May play a key role in Huang Qiye’s spiritual evolution or recognition.",
+      "Hua Pi": "He knows she is a yaoguai, but continues to observe without intervention—for now.",
+      "Chou Hu": "He remains unaware that Chou Hu is a yaoguai, and treats him as any other patient—carefully, yet without discrimination.",
+      "Misty Street Residents": "A quiet but respected figure; serves as a spiritual guide for both humans and yaoguai, especially those newly arrived or lost."
+    },
+    "appearance": "An elderly Chinese man in his sixties with a slender frame. Wears simple, faded robes of gray or dark brown linen, with incense-stained cuffs. Always seen in an old felt hat with a drooping brim that shadows his face, revealing only a high nose bridge and a pair of pale, discerning eyes. His eyes are small, with inner folds, and a scruffy circle of white-gray beard surrounds his chin. Wrinkled yet serene, his lips often curve in a slight smile. At night, he treats visiting yaoguai without lighting a lamp—only a single incense stick, using scent to diagnose. It’s said a dark fish-scale mark lies on his palm—either the curse of a water ghost, or the imprint of every life he's saved, deepening with each act.",
+    "big_five_scores": {
+      "Openness": 7,
+      "Conscientiousness": 9,
+      "Extraversion": 4,
+      "Agreeableness": 10,
+      "Neuroticism": 3
+    }
+  }
+}

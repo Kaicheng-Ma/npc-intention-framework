@@ -1,0 +1,46 @@
+{
+  "name": "Night Steal",
+  "location": "0",
+  "trigger_conditions": {
+    "time_condition": "3;10"
+  },
+  "environment": "Midnight cloaks the room in heavy stillness, broken only by the soft ticking of a wall clock. Pale moonlight slips through the window slats, brushing over an old wooden desk near the bed. The surface is scattered with yellowed notes, a dry brush, and a dim oil lamp casting a faint, flickering glow. One drawer, just within reach from the bed, hangs slightly open—its dark gap inviting yet unreadable. The scent of aged herbs and ink hangs thick in the cool, unmoving air.",
+  "interactive_environment_objects": null,
+  "interactive_npc": [
+    {
+      "name": "Chouhu",
+      "additional_conditions": null,
+      "goal": "Tempt the player into opening the drawer and checking the contents inside.",
+      "emotion_pool": [
+        {
+          "id": "0",
+          "trigger_condition": null,
+          "goal": "Verbally persuade the player to secretly look inside Huang Qiye's drawer."
+        },
+        {
+          "id": "1",
+          "trigger_condition": "The player constantly goes off-topic or refuses to cooperate.",
+          "goal": "Show impatience and mock the player for being too cautious or boring."
+        }
+      ]
+    }
+  ],
+  "key_questions": [
+    {
+      "id": "0",
+      "content": "How does the player react after hearing Chouhu's suggestion?"
+    },
+    {
+      "id": "1",
+      "content": "Does the player ultimately choose to peek into Huang Qiye's drawer?"
+    },
+    {
+      "id": "2",
+      "content": "How does this choice affect the player's trust in Huang Qiye afterward?"
+    }
+  ],
+  "scene_end_state_reference": {
+    "end_condition1": "The player opens the drawer and reads the medical records inside.",
+    "end_condition2": "The player refuses to look or repeatedly avoids the topic."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Chou Hu",
+  "nickname": "Chou Hu",
+  "basic_information": {
+    "background": "Codenamed 'Chou Hu', originally named Qi Zhao, he is said to come from a city along the Yangtze River. He is an elusive intelligence trafficker who controls a gray information network connecting the worlds of humans and yaoguai. He deals in lives and secrets, where every soul has a price. Ambushed by the suppression team and severely injured, he severed his own tendon to fake death and escaped. With a broken tail and weakened demonic aura, he slipped into Misty Street with a damaged divination tray, three forged ID cards, and a fox bone flute. Now, Chou Hu keeps a low profile, performing in public squares while secretly running a pawnshop that doubles as an underground intelligence hub. His reputation grew quietly, covering everything from antiques and talismans to escape plans and forged human-skin papers. The broken tail became a natural disguise, and the weakened aura made it harder to detect him. The gossip tray he carries is rumored to contain the power to alter destiny, and he's considered one of the key players behind the yaoguai rebellion. Yet, deep down, what drives him is not revolution, but revenge. The betrayal on the night his tailbone was broken still burns like fire.",
+    "personality": "Cunning, self-serving, and fiercely independent. Chou Hu values freedom above all, and considers everything—including loyalty and morality—a tool for his own survival. He has a high self-esteem and sharp tongue, often speaking in sarcasm and indirect mockery without overstepping. He doesn’t fight battles he hasn’t prepared for. In public, he's smooth-talking and can play the part of the charming businessman, saying just what you want to hear and knowing exactly when to show weakness to win trust. Yet behind the surface, he's a ruthless strategist who manipulates people like chess pieces. Though he helps the yaoguai cause, he has no real affection for them—only seeing them as stepping stones toward settling a personal debt written in blood and fire. Chou Hu understands the bias society places on appearance and morality. Being seen as 'ugly', he rejects these norms and believes only power and money offer true fairness. A gambler by nature, he plays all sides, always preparing an exit strategy in case things go awry. When truly threatened, he won't hesitate to retaliate—quietly, lethally, and with no mercy.",
+    "obsession": "Chou Hu is not driven by lofty ideals or a desire for justice. His only true persistence lies in his disdain for society's superficial standards—where beauty is associated with goodness and ugliness with evil. He sees this as deeply unfair and aims to overturn it in his own way: through wealth, influence, and absolute control. He doesn't seek to change the world, only to survive it on his own terms and never be powerless again. Every deal, every scheme, is to ensure he never ends up on the losing side.",
+    "initial_goal": "To quietly grow his intelligence empire within Misty Street. He avoids unnecessary risks, but if offered sufficient benefit—or if threatened—he will intervene, including exposing or protecting the player. His ultimate goal is revenge, masked under the guise of survival.",
+    "attitude_toward_yaoguai": "Chou Hu sees yaoguai not as kin but as useful pawns. He helps them only when it benefits him. When things turn unstable, he will ensure his own safety first, even if it means selling others out. To him, everything is a commodity; only his own life is sacred.",
+    "interpersonal_relationships": {
+      "Hua Pi": "Knows her full identity and watches her closely. May assist or manipulate depending on future developments.",
+      "Huang Qiye": "Respected by Huang Qiye but has not revealed his own true identity. Huang treats him like any other resident, with patient caution.",
+      "Suppression Team": "Attempts to stay on good terms with his hunters through charm and gifts, while secretly plotting to stay three steps ahead.",
+      "Player": "A dangerous unknown. Senses something unusual and may expose or assist the player depending on the benefits involved."
+    },
+    "appearance": "Chou Hu has a strange, unsettling kind of beauty. His face is thin, with skin the pale gray-white of old stone. His facial features are sharply carved and slightly asymmetrical, giving him a memorable and eerie appearance. His eyes are narrow and fox-like, with dark ink pupils that gleam with cunning. His presence feels both ancient and theatrical. He dresses like a street performer, always carrying a damaged divination tray and sometimes playing his fox bone flute. Underneath the showman's act lies a watchful predator.",
+    "big_five_scores": {
+      "Openness": 9,
+      "Conscientiousness": 6,
+      "Extraversion": 7,
+      "Agreeableness": 3,
+      "Neuroticism": 5
+    }
+  }
+}

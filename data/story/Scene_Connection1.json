@@ -1,0 +1,52 @@
+{
+  "name": "Connection1",
+  "location": "1",
+  "trigger_conditions": {
+    "time_condition": "2;10"
+  },
+  "environment": "Mist Hidden Street is a narrow, stone-paved lane shrouded in thin mist. Faded lanterns sway above weathered rooftops, while vines crawl along crumbling walls. The air smells of herbs, damp wood, and faint incense. Dim lights flicker from shadowed shopfronts, their signs old and peeling. Water pools in cracks beneath tangled power lines. It's quiet—only the soft creak of wood and a distant chime break the stillness.",
+  "interactive_environment_objects": null,
+  "interactive_npc": [
+    {
+      "name": "Chouhu",
+      "additional_conditions": null,
+      "goal": "Get to know the player and subtly make them start to doubt Huang Qiye.",
+      "emotion_pool": [
+        {
+          "id": "0",
+          "trigger_condition": null,
+          "goal": "Use ambiguous phrases and implications to plant doubts about Huang Qiye in the player's mind."
+        },
+        {
+          "id": "1",
+          "trigger_condition": "The player constantly goes off-topic.",
+          "goal": "Lose patience and leave without further engagement."
+        },
+        {
+          "id": "2",
+          "trigger_condition": "The player firmly defends Huang Qiye and shows unwavering trust.",
+          "goal": "Get annoyed and leave after sarcastically criticizing the player."
+        }
+      ]
+    }
+  ],
+  "key_questions": [
+    {
+      "id": "0",
+      "content": "How much initial trust does the player have in Huang Qiye?"
+    },
+    {
+      "id": "1",
+      "content": "After hearing Chouhu's words, how suspicious does the player become about the herbal medicine shop?"
+    },
+    {
+      "id": "2",
+      "content": "What is the player's attitude toward Chouhu and what he said?"
+    }
+  ],
+  "scene_end_state_reference": {
+    "end_condition1": "The player trusts Chouhu’s words and shows a friendly or interested attitude toward him.",
+    "end_condition2": "The player frequently goes off topic.",
+    "end_condition3": "The player defends Huang Qiye so strongly that Chouhu becomes disgusted and leaves."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Huapi",
+  "nickname": "Painted Skin",
+  "basic_information": {
+    "background": "No one knows where Huapi came from. Now known as a fashion master on Misty Street, her custom-made creations are legendary—like a second skin, breathable, weightless, and impossible to replicate. Outsiders think she’s reclusive, but in truth, she simply can’t be bothered to interact with ordinary people. If someone piques her interest, she may offer them a glimpse of her 'art collection'—or make them part of it. 'Painted Skin' isn’t a name—it’s a concept: an ever-changing display of stolen faces. Her most common appearance is that of a mesmerizing woman with snow-white skin, rosy lips, and captivating eyes. Each face she wears is a preserved memory from a former prey. To her, beauty is both her tool and her mockery of a world obsessed with surfaces.",
+    "personality": "Huapi is a pathological control-seeker with a meticulous taste for aesthetics—especially those involving transformation, destruction, and raw exposure. She is a master manipulator: never loud, but always center stage. Her comfort is precise and cutting, her tenderness laced with subtle contempt. She observes others like a tailor fitting a skin—emotion is material, not meaning. Morality, to her, is a farce; art is the only true purpose. She finds satisfaction in watching people unravel, and when life gets too quiet, she’ll stir up some tragedy to spice things up. Her madness is not chaos, but a still-water danger—clinical, calculating, terrifying in its calm. She never shows her true face. Even to herself.",
+    "obsession": "Huapi is obsessed with the aesthetics of control, beauty, and destruction. She derives pleasure not from domination alone, but from the art of peeling away masks—literal or emotional—to reveal the raw horror beneath. She believes only by shedding the surface can one confront the truth. She holds no loyalty to humans or yaoguai, and sees both as canvases for her work.",
+    "initial_goal": "To continue perfecting her collection of 'skins' and expressions. She opposes restrictive forces like institutional thresholds not for ideological reasons, but because they inhibit her creative freedom. Whether by collusion or rebellion, she will find a way to keep creating.",
+    "attitude_toward_yaoguai": "Huapi doesn't care whether one is human or yaoguai. She evaluates everyone by their artistic potential. She is aware of Huang Qiye and Chou Hu's true nature but sees them only in relation to her interest. She knows everything about Huang Qiye, but little about Chou Hu except that he deals in intelligence.",
+    "interpersonal_relationships": {
+      "Huang Qiye": "She knows he is a yaoguai and is deeply familiar with his past and current behavior. Views him with a blend of curiosity and amusement, but does not interfere.",
+      "Chou Hu": "Aware that he is a yaoguai and an intelligence broker. Has limited knowledge of his motives or history, but senses they share a tendency toward manipulation and concealment.",
+      "Others": "Painted Skin maintains minimal attachments. She engages only with those who stimulate her interest artistically or emotionally—and even then, it may end poorly for them."
+    },
+    "appearance": "Her default form is a dangerously alluring woman with narrow, slightly upturned eyes like flowing spring water—eyes that hide blades. Her lips are crimson, always as if freshly stained with blood. Her skin is flawless and pale, thin as cicada wings, cold as jade. Long black hair falls like ink, her nails are lacquered deep and sharp. She walks without sound in custom-made leather garments that cling like a second skin—part armor, part art. She carries the scent of rare herbs and faint perfume, and the air around her seems to shimmer. Her beauty is an overwhelming sensory assault—sight, smell, and even imagined touch.",
+    "big_five_scores": {
+      "Openness": 10,
+      "Conscientiousness": 8,
+      "Extraversion": 5,
+      "Agreeableness": 2,
+      "Neuroticism": 4
+    }
+  }
+}

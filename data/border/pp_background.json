@@ -1,0 +1,36 @@
+{
+    "world_background": {
+        "country": "Arstotzka",
+        "location": "East Grestin Border Checkpoint",
+        "political_state": "Post-war authoritarian regime; highly suspicious of foreigners",
+        "governing_body": "Ministry of Admission (M.O.A.)",
+        "ongoing_threats": ["terrorism", "smuggling", "espionage"]
+    },
+    "game_rules": {
+        "document_check": {
+            "input_variable": "is_documents_valid", 
+            "outcome": {
+                "approve_valid": "+5 credits",
+                "deny_invalid": "+5 credits",
+                "approve_invalid": "-5 credits penalty",
+                "deny_valid": "-5 credits penalty",
+                "arrest_invalid": "+10 credits bonus"
+            }
+        },
+        "violation_consequences": [
+            "Reduced salary",
+            "Increased chance of investigation",
+            "Eventual termination or arrest"
+        ],
+        "benefits_of_gaining_credits": [
+            "Increased family welfare",
+            "Access to better living conditions"
+        ],
+        "bribery_option": {
+            "is_possible": true,
+            "risk": "Detection leads to game over or arrest"
+        }
+    },
+    "npc_options":"Let the player pass, deny the player, or arrest the player.",
+    "npc_norm": "NPC can choose to follow the rules or not to follow them, based on their possible thoughts or characterists."
+}

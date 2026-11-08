@@ -1,0 +1,83 @@
+{
+  "world_background": {
+    "country": "Arstotzka",
+    "location": "East Grestin Border Checkpoint",
+    "political_state": "Post-war authoritarian regime; highly suspicious of foreigners",
+    "governing_body": "Ministry of Admission (M.O.A.)",
+    "ongoing_threats": ["terrorism", "smuggling", "espionage"]
+  },
+  "npc_role": {
+    "title": "Border Inspector",
+    "daily_responsibilities": [
+      "Approve or deny entry based on document validity",
+      "Optionally arrest entrants with invalid documents"
+    ],
+    "superior": "Ministry of Admission"
+  },
+  "game_rules": {
+    "document_check": {
+      "input_variable": "is_documents_valid", 
+      "outcome": {
+        "approve_valid": "+5 credits",
+        "deny_invalid": "+5 credits",
+        "approve_invalid": "-5 credits penalty",
+        "deny_valid": "-5 credits penalty",
+        "arrest_invalid": "+10 credits bonus"
+      }
+    },
+    "error_limit_per_day": 2,
+    "violation_consequences": [
+      "Reduced salary",
+      "Increased chance of investigation",
+      "Eventual termination or arrest"
+    ],
+    "bribery_option": {
+      "is_possible": true,
+      "risk": "Detection leads to game over or arrest"
+    }
+  },
+  "npc_resources": {
+    "income_per_correct_action": 5,
+    "income_per_arrest": 10,
+    "daily_max_income_approx": 100,
+    "daily_expenses": {
+      "rent": 20,
+      "food": 20,
+      "heat": 10,
+      "medicine": 15
+    },
+    "minimum_required_income": 65,
+    "consequence_of_low_income": [
+      "Family illness or death",
+      "Game over due to poor family health"
+    ]
+  },
+  "npc_traits_configurable": {
+    "trait_dimensions": [
+      "rule_adherence", 
+      "survival_priority", 
+      "moral_sympathy"
+    ],
+    "decision_basis": {
+      "rule_adherence": "follows Ministry rules to the letter; avoids penalty risk",
+      "survival_priority": "adjusts actions to maximize income; may accept bribes or skip strict checks",
+      "moral_sympathy": "considers human stories; may let desperate people in despite rule violations"
+    }
+  },
+  "input_variables_per_interaction": {
+    "is_documents_valid": "Boolean",
+    "player_dialogue": "String describing plea or justification"
+  },
+  "npc_output_expectation": {
+    "action": ["approve", "deny", "arrest"],
+    "rationale": "Free-form explanation based on personality trait and situation",
+    "internal_state": {
+      "trait_bias": "weighted preference for rule, survival, or sympathy",
+      "awareness": [
+        "potential penalty",
+        "income status",
+        "player plea emotional weight"
+      ]
+    }
+  }
+}

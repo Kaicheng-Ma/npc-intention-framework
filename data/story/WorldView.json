@@ -1,0 +1,65 @@
+{
+  "world_name": "Game Grand World",
+  "setting": {
+    "country": "Country A",
+    "description": "A fictional country overseeing an entire continent, divided into 12 administrative regions. It has unified leadership and vague structures modeled on real-life government, courts, and institutions."
+  },
+  "institutions": {
+    "national_government": {
+      "composed_of": "humans_only",
+      "cooperation": "Maintains secret, long-term cooperation with the Human-Yaoguai Coexistence Order Maintenance Agency.",
+      "special_position": "Special Contact Officer (SCO)",
+      "SCO_details": {
+        "role": "Liaison and report organizer between government and the agency.",
+        "confidentiality": "Extremely high; only SCO and top leader aware of agency's existence.",
+        "selection": "Hereditary and mutually chosen by government and agency.",
+        "training": "New candidates must undergo one-week agency training and serve as assistant before full appointment.",
+        "retirement": "Retired officers are often monitored and placed in agency-arranged care.",
+        "power_balance": "Agency is gradually gaining independence from government influence."
+      }
+    },
+    "national_court": {
+      "composed_of": "humans_only",
+      "jurisdiction": "Human legal affairs only; yaoguai law handled solely by the agency."
+    },
+    "police_department": {
+      "composed_of": "humans_only",
+      "jurisdiction": "Handles human public security; yaoguai security handled by agency."
+    },
+    "national_hospital": {
+      "composed_of": "humans_only",
+      "jurisdiction": "Handles human healthcare; yaoguai healthcare handled by the agency or independent yaoguai healers."
+    },
+    "national_armed_forces": {
+      "composed_of": "humans_only",
+      "jurisdiction": "Handles human national defense; agency handles yaoguai-related disasters."
+    },
+    "mixed_workplaces": "Yaoguai can be found in ordinary companies or civil services under disguise."
+  },
+  "yaoguai_organizations": {
+    "The Abyss": {
+      "type": "Elite Anti-agency Group",
+      "members": 5,
+      "leader": null,
+      "philosophy": "Pursue freedom and personal desire; reject rules and morality.",
+      "meeting": "Monthly, optional attendance",
+      "members_traits": {
+        "Huapi": "Soft-spoken, sarcastic, strategic, rarely speaks in meetings but plans major moves.",
+        "Member 1": "Youth male, talkative, manipulative, highest contact with lower yaoguai, secretly looks down on them.",
+        "Member 2": "Childlike male, impulsive, violent, picks fights, has soft spot for Member 1.",
+        "Member 3": "Genderless, masked, quiet and mysterious, most rule-abiding, sometimes airheaded.",
+        "Member 4": "Middle-aged female, emotional, causes weather shifts when crying, maternal instincts."
+      }
+    },
+    "The Broken Window": {
+      "type": "Grassroots yaoguai network",
+      "description": "Mostly weak yaoguai from gray zones or anti-agency backgrounds; form collectives for safety.",
+      "crimes": "Petty crimes like theft and extortion.",
+      "conflict_with": "Mutual disdain with The Abyss.",
+      "leader": "Controls gray industries and offers protection while exploiting members."
+    },
+    "Unknown_Groups": {
+      "placeholder": "Three more groups planned. One expected to be neutral, two TBD."
+    }
+  }
+}

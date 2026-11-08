@@ -1,0 +1,42 @@
+{
+  "name": "Connection2",
+  "location": "2",
+  "trigger_conditions": {
+    "time_condition": "4;10"
+  },
+  "environment": "Street-level teahouse hums with quiet life. Worn wooden tables crowd the space, stained by years of spilled tea and stories. Paper lanterns sway gently overhead, casting warm, dappled light. The air is thick with the scent of roasted tea leaves and damp stone. In one corner, a low platform holds a single stool and table—set for the storyteller.",
+  "interactive_environment_objects": null,
+  "interactive_npc": [
+    {
+      "name": "Huapi",
+      "additional_conditions": null,
+      "goal": "Get to know the player and subtly lead them to question Huang Qiye’s intentions.",
+      "emotion_pool": [
+        {
+          "id": "0",
+          "trigger_condition": null,
+          "goal": "Use vague, suggestive remarks to plant doubt about Huang Qiye in the player's mind."
+        },
+        {
+          "id": "1",
+          "trigger_condition": "The player constantly goes off-topic or strongly defends Huang Qiye.",
+          "goal": "Lose patience, mock the player's naivety, and exit the scene."
+        }
+      ]
+    }
+  ],
+  "key_questions": [
+    {
+      "id": "0",
+      "content": "How much trust does the player still have in Huang Qiye at this point?"
+    },
+    {
+      "id": "1",
+      "content": "How does the player respond to Huapi’s suggestive words and presence?"
+    }
+  ],
+  "scene_end_state_reference": {
+    "end_condition1": "The player trusts Huapi’s hints and begins responding positively or with curiosity.",
+    "end_condition2": "The player dismisses Huapi’s suggestions or repeatedly avoids meaningful engagement."
+  }
+}
