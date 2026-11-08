@@ -7,7 +7,7 @@ Research prototypes for turning character profiles, world context, player input 
 - `experiments/multi_call/story`: staged context analysis, candidate intentions, optional tradeoff and response generation.
 - `experiments/multi_call/border`: a separate border-inspector tradeoff scenario.
 - `data/story` and `data/border`: fictional scenario inputs. Original language and prompt behavior are preserved.
-- `personality_exploration`: historical personality regression training scripts; model weights and training datasets are excluded.
+- Personality scoring weights and historical model-distribution training utilities are excluded; this distribution focuses on authored NPC workflows.
 
 ## Setup
 Use Python 3.11 or later. Install `requirements.txt` in a suitable environment. Copy `config/qwen.env.example` to `config/qwen.env`, then fill in your own API key, official OpenAI-compatible Qwen base URL ending in `/compatible-mode/v1`, and model ID. No credentials are included.
